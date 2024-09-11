@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <title>وسوم خاصة بالوسائط</title>
+</head>
+
+<body dir="rtl">
+  <h1>وسوم خاصة بالوسائط</h1>
+  <hr>
+  <ul>
+    <li>
+      <figure>
+        <img src="../media/imgs/ztech.png" alt="ztech" width="150px">
+        <figcaption>لعمل عنوان او وصف للصورة</figcaption>
+      </figure>
+    </li>
+    <li>
+      <picture>
+        <source src="../media/imgs/ztech.png">
+        <source src="../media/imgs/ztech.jpg">
+      </picture>
+      <img src="../media/imgs/ztech.jpg" alt="ztech">
+      <img src="../media/imgs/ztech.png" alt="ztech" width="150px" height="100px">
+    </li>
+    يجب ضبط الابعاد بناء على ابعاد الصورة والا ضبط بعد واحد فقط مثل اول صورة
+    <br>
+    <hr>
+    <li>
+      <audio autoplay controls loop muted>
+        <source src="../media/audio/temp.mp3" type="audio/mp3">
+        <source src="../media/audio/temp.ogg" type="audio/ogg">
+      </audio>
+    </li>
+    <br>
+    <hr>
+    <li>
+      <video controls loop muted poster="../media/imgs/ztech.png" width="200px" height="100px">
+        <source src="../media/video/temp.mp4" type="video/mp4">
+        <source src="../media/video/temp.ogg" type="video/ogg">
+      </video>
+    </li>
+    <li>
+      <img src="../media/imgs/ztech.png" alt="ztech" usemap="#ztechMap" width="200" height="200">
+      <map name="ztechMap">
+
+        <area shape="rect" coords=0,0,200,100"" href="index2.html" alt="ztech">
+        <area shape="circle" coords="100,120,20" href="index.html" alt="index.html">
+        <area shape="rect" coords=0,140,200,200"" href="https://wa.me/967779023588" alt="ztech">
+      </map>
+    </li>
+  </ul>
+
+</body>
+
+</html>

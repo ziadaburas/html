@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <title>وسوم خاصة بالنماذج والادخال</title>
+</head>
+
+<body dir="rtl">
+  <h1>وسوم خاصة بالنماذج والادخال</h1>
+  <hr>
+  <form action="" method="get">
+    <fieldset>
+      <legend>عنوان النموذج</legend>
+
+      <label for="textValue">ادخال نص</label>
+      <input type="text" name="textValue" id="textValue">
+      <br>
+      <label for="numericValue">ادخال ارقام فقط</label>
+      <input type="number" name="numericValue" id="numericValue">
+      <br>
+      <label for="filesValue">رفع ملفات</label>
+      <input type="file" name="filesValue" id="filesValue">
+      <br>
+      <label>اختيارات متعددة</label>
+      <br>
+      <label for="water">ماء</label>
+      <input type="checkbox" name="water" id="water" value="ماء">
+      <label for="coffee">قهووة</label>
+      <input type="checkbox" name="coffee" id="coffee" value="قهووة">
+      <label for="milk">حليب</label>
+      <input type="checkbox" name="milk" id="milk" value="حليب">
+      <br>
+      <label>اختيار واحد</label>
+      <br>
+      <label for="tall"> طويل</label>
+      <input type="radio" name="length" id="tall" value="طويل">
+      <label for="short"> قصير</lengthl>
+        <input type="radio" name="length" id="short" value="قصير">
+        <br>
+        <label for="dateValue">ادخال تاريخ</label>
+        <input type="date" name="dateValue" id="dateValue">
+        <br>
+        <label for="colorValue">ادخال لون</label>
+        <input type="color" name="colorValue" id="colorValue">
+        <br>
+        <label for="areaValue">مساحة</label>
+        <textarea name="areaValue" id="areaValue" cols="50" rows="5"></textarea>
+        <br>
+        <label>الازرار</label>
+        <input type="button" value="button1">
+        <button>button2</button>
+        <br>
+        <label for="optionValue">خيارات</label>
+        <select name="optionValue" id="optionValue">
+          <option value="الجمعة">الجمعة</option>
+          <option value="السبت">السبت</option>
+          <option value="الاحد">الاحد</option>
+          <option value="الاثنين">الاثنين</option>
+          <option value="الثلاثاء">الثلاثاء</option>
+          <option value="الاربعاء">الاربعاء</option>
+          <option value="الخميس" selected>الخميس</option>
+        </select>
+        <br><br>
+        <input type="submit" value="ارسال البيانات">
+    </fieldset>
+  </form>
+</body>
+
+</html>
